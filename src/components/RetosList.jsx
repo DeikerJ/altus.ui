@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { retoService } from '../services/retoServices.js';
 import { getCategorias } from '../services/categoriaService.js';
 import { useAuth } from '../context/AuthContext';
-import RetosForm from './RetosForm';  // Corregido: importación en mayúscula
+import RetosForm from './retosForm';  // Corregido: importación en mayúscula
 
 const RetosList = () => {
   const { validateToken, getToken } = useAuth();
